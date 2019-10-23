@@ -1,69 +1,71 @@
 package com.riji.pojo;
 
+import com.baomidou.mybatisplus.annotations.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
+@TableName("bd_user")
 public class User {
-    private String userId;
+    private String id;
 
-    private String userName;
+    //private String userName;
 
-    private String userMail;
+    private String user_mail;
 
-    private String userPassword;
-    @JsonFormat(pattern = "yyyy-MM-dd",timezone ="GMT+8")
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private Date ts;
+    private String user_password;
+//    @JsonFormat(pattern = "yyyy-MM-dd",timezone ="GMT+8")
+//    @DateTimeFormat(pattern = "yyyy-MM-dd")
+//    private Date ts;
+//
+//    private Integer dr;
 
-    private Integer dr;
-
-    public String getUserId() {
-        return userId;
+    public String getId() {
+        return id;
     }
 
-    public void setUserId(String userId) {
-        this.userId = userId;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public String getUserName() {
-        return userName;
+//    public String getUserName() {
+//        return userName;
+//    }
+//
+//    public void setUserName(String userName) {
+//        this.userName = userName;
+//    }
+
+    public String getUser_mail() {
+        return user_mail;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUser_mail(String user_mail) {
+        this.user_mail = user_mail;
     }
 
-    public String getUserMail() {
-        return userMail;
+    public String getUser_password() {
+        return user_password;
     }
 
-    public void setUserMail(String userMail) {
-        this.userMail = userMail;
+    public void setUser_password(String user_password) {
+        this.user_password = user_password;
     }
 
-    public String getUserPassword() {
-        return userPassword;
-    }
-
-    public void setUserPassword(String userPassword) {
-        this.userPassword = userPassword;
-    }
-
-    public Date getTs() {
-        return ts;
-    }
-
-    public void setTs(Date ts) {
-        this.ts = ts;
-    }
-
-    public Integer getDr() {
-        return dr;
-    }
-
-    public void setDr(Integer dr) {
-        this.dr = dr;
-    }
+//    public Date getTs() {
+//        return ts;
+//    }
+//
+//    public void setTs(Date ts) {
+//        this.ts = ts;
+//    }
+//
+//    public Integer getDr() {
+//        return dr;
+//    }
+//
+//    public void setDr(Integer dr) {
+//        this.dr = dr;
+//    }
 }
