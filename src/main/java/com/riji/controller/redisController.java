@@ -21,8 +21,8 @@ public class redisController {
     @GetMapping("/ceshiredis")
     public String addDemo(){
         String key="ceshide";
-        int value=1;
-        Double score=75.0;
+        String value="nana";
+        Double score=78.0;
         Boolean flag = redisTemplate.opsForZSet().add(key, value, score);
         if(flag){
             return "成功";
@@ -32,9 +32,10 @@ public class redisController {
     @GetMapping("/getAll")
     public Set<Object> getAll1(){
         String key="ceshide";
-        int value=1;
+        //int value=2;
+        String value="nana";
         //Double score = redisTemplate.opsForZSet().score(key, value);
-        Set<Object> range = redisTemplate.opsForZSet().range(key, 0, -1);
+        Set<Object> range = redisTemplate.opsForZSet().range(key, 0, -1);//value:[1,"fafaya",2,"nana"]
         return range;
     }
 

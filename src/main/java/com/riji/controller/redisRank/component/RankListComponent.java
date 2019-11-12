@@ -16,28 +16,34 @@ import java.util.Set;
  * @date 2019/10/23 0023
  * 排行榜组件
  */
+/**
+ * 排行榜组件
+ * Created by @author yihui in 19:51 18/12/18.
+ */
 @Component
 public class RankListComponent {
     @Autowired
     private RedisComponent redisComponent;
+
     private static final String RANK_PREFIX = "global_rank";
 
     private List<RankDO> buildRedisRankToBizDO(Set<ZSetOperations.TypedTuple<String>> result, long offset) {
         List<RankDO> rankList = new ArrayList<>(result.size());
         long rank = offset;
         for (ZSetOperations.TypedTuple<String> sub : result) {
-            rankList.add(new RankDO(Long.parseLong(sub.getValue()),rank++, Math.abs(sub.getScore().floatValue())));
+            rankList.add(new RankDO(rank++, Math.abs(sub.getScore().floatValue()), sub.getValue()));
         }
         return rankList;
     }
+
     /**
      * 获取前n名的排行榜数据
      *
      * @param n
      * @return
      */
-    public List<RankDO> getTopNRanks(long n) {
-        Set<ZSetOperations.TypedTuple<String>> result = redisComponent.rangeWithScore(RANK_PREFIX, 0L, n - 1);
+    public List<RankDO> getTopNRanks(int n) {
+        Set<ZSetOperations.TypedTuple<String>> result = redisComponent.rangeWithScore(RANK_PREFIX, 0, n - 1);
         return buildRedisRankToBizDO(result, 1);
     }
 
@@ -49,7 +55,7 @@ public class RankListComponent {
      * @param n
      * @return
      */
-    public List<RankDO> getRankAroundUser(Long userId, int n) {
+    public List<RankDO> getRankAroundUser(String userId, int n) {
         // 首先是获取用户对应的排名
         RankDO rank = getRank(userId);
         if (rank.getRank() <= 0) {
@@ -70,17 +76,17 @@ public class RankListComponent {
      * @param userId
      * @return
      */
-    public RankDO getRank(Long userId) {
+    public RankDO getRank(String userId) {
         // 获取排行， 因为默认是0为开头，因此实际的排名需要+1
         Long rank = redisComponent.rank(RANK_PREFIX, String.valueOf(userId));
         if (rank == null) {
             // 没有排行时，直接返回一个默认的
-            return new RankDO(userId,-1L, 0F);
+            return new RankDO(-1L, 0F, userId);
         }
 
         // 获取积分
         Double score = redisComponent.score(RANK_PREFIX, String.valueOf(userId));
-        return new RankDO(userId,rank + 1, Math.abs(score.longValue()) );
+        return new RankDO(rank + 1, Math.abs(score.floatValue()), userId);
     }
 
     /**
@@ -90,11 +96,11 @@ public class RankListComponent {
      * @param score
      * @return
      */
-    public RankDO updateRank(Long userId, Float score) {
+    public RankDO updateRank(String userId, Float score) {
         // 因为zset默认积分小的在前面，所以我们对score进行取反，这样用户的积分越大，对应的score越小，排名越高
         redisComponent.add(RANK_PREFIX, String.valueOf(userId), -score);
         Long rank = redisComponent.rank(RANK_PREFIX, String.valueOf(userId));
-        return new RankDO(userId,rank + 1, score);
+        return new RankDO(rank + 1, score, userId);
     }
 
 }

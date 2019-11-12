@@ -1,34 +1,39 @@
 package com.riji.controller.redisRank.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.io.Serializable;
 
 /**
  * @author 杨鹏发
  * @date 2019/10/23 0023
  */
-
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class RankDO implements Serializable {
-    // 用来表明具体的用户
-    private long userId;
-    // 用户在排行榜上的排名
-    private long rank;
-    // 用户的历史最高积分，也就是排行榜上的积分
-    private float score;
+    /**
+     * 排名
+     */
+    private Long rank;
 
-    public RankDO() {
-    }
+    /**
+     * 积分
+     */
+    private Float score;
 
-    public RankDO(long userId, long rank, float score) {
-        this.userId = userId;
-        this.rank = rank;
-        this.score = score;
-    }
+    /**
+     * 用户id
+     */
+    private String userId;
 
-    public long getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(long userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 
