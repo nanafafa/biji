@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
+ * 之前报错是因为转换成VO时候类型不对
  * @author 杨鹏发
  * @date 2019/10/23 0023
  * 排行榜组件

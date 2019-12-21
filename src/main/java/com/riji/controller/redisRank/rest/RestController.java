@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.client.RestTemplate;
 
+
 import java.util.List;
 import java.util.Random;
 
@@ -30,13 +31,14 @@ public class RestController {
     @GetMapping(path = "/ceshi")
     public void init() {
 //        random = new Random();
-//        restTemplate = new RestTemplate();
+        restTemplate = new RestTemplate();
 //
 //
 //        for (int i = 0; i < 30; i++) {
 //            int  a=random.nextInt(1024);
 //            double d=random.nextDouble() * 100;
-            restTemplate.getForObject("http://localhost:8080/update?userId=" + "java"+ "&score=" + 100.0,
+            int a=98;
+            restTemplate.getForObject("http://localhost:8080/update?userId=" + a+ "&score=" + 99.0,
                     String.class);
         }
 //    }
@@ -52,11 +54,13 @@ public class RestController {
 
     @GetMapping(path = "/topn")
     public List<RankDO> showTopN(int n) {
+
         return rankListComponent.getTopNRanks(n);
     }
 
     @GetMapping(path = "/update")
     public RankDO updateScore(String userId, float score) {
+
         return rankListComponent.updateRank(userId, score);
     }
 
