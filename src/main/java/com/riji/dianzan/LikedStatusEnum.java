@@ -1,4 +1,4 @@
-package com.riji.util;
+package com.riji.dianzan;
 
 import lombok.Getter;
 

@@ -29,14 +29,15 @@ public class FafayaApplication {
     public static void main(String[] args) {
         SpringApplication.run(FafayaApplication.class, args);
     }
-    //创建redission的客户端并注入到spring
-    @Bean
-    public Redisson redisson(){
-        Config config = new Config();
-        config.useSingleServer().setAddress("redis://localhost:6379").setDatabase(0);
-        return (Redisson)Redisson.create(config);
-    }
 }
+    //创建redission的客户端并注入到spring
+//    @Bean
+//    public Redisson redisson(){
+//        Config config = new Config();
+//        config.useSingleServer().setAddress("redis://localhost:6379").setDatabase(0);
+//        return (Redisson)Redisson.create(config);
+//    }
+//}
 
 
 /**

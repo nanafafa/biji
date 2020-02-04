@@ -1,4 +1,4 @@
-package com.riji.util;
+package com.riji.dianzan;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
@@ -15,14 +15,14 @@ import java.net.UnknownHostException;
 
 /**
  * @author 杨鹏发
- * @date 2019/11/19 0019
+ * @date 2020/2/1 0001
  */
 @Configuration
 public class RedisConfig {
 
     @Bean
-    @ConditionalOnMissingBean(name = "redisTemplate")
-    public RedisTemplate<String,Object>redisTemplate(RedisConnectionFactory redisConnectionFactory)throws UnknownHostException {
+    @ConditionalOnMissingBean(name="redisTemplate")
+    public RedisTemplate<String,Object> redisTemplate(RedisConnectionFactory redisConnectionFactory)throws UnknownHostException {
         Jackson2JsonRedisSerializer<Object> jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer<Object>(Object.class);
         ObjectMapper om = new ObjectMapper();
         om.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
@@ -38,6 +38,8 @@ public class RedisConfig {
         template.afterPropertiesSet();
         return template;
     }
+
+
     @Bean
     @ConditionalOnMissingBean(StringRedisTemplate.class)
     public StringRedisTemplate stringRedisTemplate(

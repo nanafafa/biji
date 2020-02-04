@@ -1,4 +1,4 @@
-package com.riji.dto;
+package com.riji.dianzan;
 
 import lombok.Data;
 
@@ -10,6 +10,7 @@ import java.io.Serializable;
  */
 @Data
 public class LikedCountDTO implements Serializable {
+    //被点赞人的id
     private String id;
 
     private Integer count;

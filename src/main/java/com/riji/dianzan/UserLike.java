@@ -1,11 +1,9 @@
-package com.riji.pojo;
+package com.riji.dianzan;
 
-import com.riji.util.LikedStatusEnum;
+import com.riji.dianzan.LikedStatusEnum;
 import lombok.Data;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+
+import javax.persistence.*;
 
 /**
  * @author 杨鹏发
@@ -14,6 +12,7 @@ import javax.persistence.Id;
  */
 @Entity
 @Data
+@Table(name = "user_like")
 public class UserLike {
     //主键id
     @Id
