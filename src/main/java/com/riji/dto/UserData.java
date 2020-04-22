@@ -2,7 +2,10 @@ package com.riji.dto;
 
 public class UserData {
     private String userMail;
+
     private String UserPassword;
+
+
 
     public String getUserMail() {
         return userMail;

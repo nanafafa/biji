@@ -7,6 +7,7 @@ import com.riji.controller.redisRank.model.RankDO;
 import io.swagger.annotations.ApiImplicitParams;
 import org.junit.Before;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.client.RestTemplate;
 
@@ -25,8 +26,10 @@ public class RestController {
     @Autowired
     private RedisComponent redisComponent;
     private Random random;
-    private RestTemplate restTemplate;
 
+    private RestTemplate restTemplate;
+//    @Autowired
+//    private RedisTemplate redisTemplate;
 
     @GetMapping(path = "/ceshi")
     public void init() {
