@@ -1,0 +1,15 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.riji.springbootListener.HelloApplicationContextInitializer
+
+org.springframework.boot.SpringApplicationRunListener=\
+com.riji.springbootListener.HelloSpringApplicationRunListener
+
+
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.riji.controller.ceshiSpringBoot.ziDingYiStart.HelloServiceAutoConfiguration
+
+
+
+

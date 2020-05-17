@@ -13,6 +13,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 //(exclude = DataSourceAutoConfiguration.class)
@@ -21,12 +22,14 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 //@ComponentScan
 @EnableScheduling
 @Configuration
+@EnableAsync
 //配置mapper层的扫描
 @MapperScan(basePackages={"com.riji.dao"})
 @EnableCaching
 public class FafayaApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(FafayaApplication.class, args);
     }
 }
