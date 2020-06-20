@@ -62,6 +62,36 @@ public class CeshiListController {
         return list;
 
     }
+    //又有集合又有属性
+
+    /**
+     * {
+     *
+     *       "list":
+     *       [
+     *           "12","22"
+     *       ],
+     *
+     *       "name":"fafa",
+     *       "age":"23"
+     *
+     *
+     * }
+     * @param map
+     */
+    @PostMapping("/MapJson2")
+    public void getShow2(@RequestBody Map<String,Object> map){
+        List list =(List) map.get("list");
+        list.stream().forEach((s)->{
+            System.out.println(s);
+        });
+        String name =(String) map.get("name");
+        String age=(String) map.get("age");
+        System.out.println(name);
+        System.out.println(age);
+
+    }
+
 
 
     @PostMapping("/ListJson")//http://localhost:8080/ListJson?list=nana&list=23
@@ -95,6 +125,19 @@ public class CeshiListController {
 
     }
 
+    /**
+     * [
+     * "aa","bb"
+     *       ]
+     * @param list
+     * @return
+     */
+    @PostMapping("/ListJson2")
+    public List<String> getListShow2(@RequestBody List<String> list){
+
+        return list;
+
+    }
 
     public static void main(String[] args) {//[name, age, name]
         ArrayList<String> list = new ArrayList<>();
