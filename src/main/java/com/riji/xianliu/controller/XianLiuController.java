@@ -2,6 +2,7 @@ package com.riji.xianliu.controller;
 
 import com.google.common.util.concurrent.RateLimiter;
 import com.riji.xianliu.annotation.DlRateLimiter;
+import com.riji.xianliu.annotation.DlRedisLimiter;
 import com.riji.xianliu.service.OrderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -67,5 +68,17 @@ public class XianLiuController {
         result ="Sorry,秒杀下单失败了，请再试一次吧";
         return result;
     }
-
+    @DlRedisLimiter(value=10.0D)
+    @RequestMapping("/boot/order3")
+    public String order3(){
+        String result="";
+        //2.业务逻辑处理
+        int addRows = orderService.addOrder();
+        if(addRows>0){
+            result="恭喜您，秒杀下单成功";
+            return result;
+        }
+        result ="Sorry,秒杀下单失败了，请再试一次吧";
+        return result;
+    }
 }
