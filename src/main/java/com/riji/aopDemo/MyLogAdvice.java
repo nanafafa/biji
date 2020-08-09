@@ -56,6 +56,7 @@ public class MyLogAdvice {
         //还可以拿到类名加上方法名
         //String methodName = joinPoint.getTarget().getClass().getName() + "." + method.getName();
         logger.debug(new Date()+"|" +operation+"|"+toJSONString);
+        logger.info("adadadada");
 
     }
 
