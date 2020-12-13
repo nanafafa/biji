@@ -1,6 +1,7 @@
 package com.riji.controller;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
@@ -10,8 +11,9 @@ import java.util.Date;
  */
 public class TestDate {
     private String name;
-    //@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    private String startDate;
+   @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
+   @DateTimeFormat(pattern = "yyyy-MM-dd")//前台传后台
+    private Date startDate;
 
     public String getName() {
         return name;
@@ -21,11 +23,11 @@ public class TestDate {
         this.name = name;
     }
 
-    public String getStartDate() {
+    public Date getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(String startDate) {
+    public void setStartDate(Date startDate) {
         this.startDate = startDate;
     }
 }

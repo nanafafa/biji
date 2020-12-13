@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+//前台传字符串  后台用date接收  用注解就可以接收到   不用非的@RequestBody
 /**
  * @author 杨鹏发
  * @date 2020/9/6 0006
@@ -27,17 +27,19 @@ public class CeshiBianLiang {
         }
         return a;
     }*/
-   public Date show(@RequestBody TestDate testDate){
-        String startDate = testDate.getStartDate();
-        String name = testDate.getName();
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Date date=null;
-        try {
-            date=dateFormat.parse(startDate);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        return date;
+   public Date show(TestDate testDate){
+        Date startDate = testDate.getStartDate();
+//        String startDate = testDate.getStartDate();
+//        String name = testDate.getName();
+//        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        Date date=null;
+//        try {
+//            date=dateFormat.parse(startDate);
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
+//        return date;
+        return startDate;
     }
 
 }

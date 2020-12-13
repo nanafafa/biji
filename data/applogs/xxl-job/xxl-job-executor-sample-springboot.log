@@ -1,0 +1,465 @@
+2020-12-13 21:26:47,896 INFO [main] com.riji.FafayaApplication [StartupInfoLogger.java : 50] Starting FafayaApplication on SKY-20190605UKD with PID 9792 (G:\biji\target\classes started by Administrator in G:\biji)
+2020-12-13 21:26:47,902 INFO [main] com.riji.FafayaApplication [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2020-12-13 21:26:52,561 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-13 21:26:52,562 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-13 21:26:52,644 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java : 363] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.riji.article.dao.CommentRepository.
+2020-12-13 21:26:52,743 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 168ms. Found 2 repository interfaces.
+2020-12-13 21:26:52,882 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-13 21:26:52,883 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-13 21:26:52,903 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java : 363] Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.riji.dianzan.UserInfoRepository.
+2020-12-13 21:26:52,904 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java : 363] Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.riji.dianzan.UserLikeRepository.
+2020-12-13 21:26:52,918 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 35ms. Found 1 repository interfaces.
+2020-12-13 21:26:52,948 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-13 21:26:52,950 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-13 21:26:52,987 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java : 363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.riji.article.dao.CommentRepository.
+2020-12-13 21:26:52,988 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java : 363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.riji.dianzan.UserInfoRepository.
+2020-12-13 21:26:52,988 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java : 363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.riji.dianzan.UserLikeRepository.
+2020-12-13 21:26:52,988 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2020-12-13 21:26:53,864 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$19d3be36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-13 21:26:54,895 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8081 (http)
+2020-12-13 21:26:54,915 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8081"]
+2020-12-13 21:26:54,943 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2020-12-13 21:26:54,943 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-12-13 21:26:54,950 INFO [main] o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-12-13 21:26:54,951 INFO [main] o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-13 21:26:54,951 INFO [main] o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-13 21:26:54,955 INFO [main] o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-12-13 21:26:55,092 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2020-12-13 21:26:55,092 INFO [main] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 5978 ms
+2020-12-13 21:26:55,556 INFO [main] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2020-12-13 21:26:55,748 INFO [main] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2020-12-13 21:26:55,871 INFO [main] o.h.jpa.internal.util.LogHelper [LogHelper.java : 31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-13 21:26:56,125 INFO [main] org.hibernate.Version [Version.java : 46] HHH000412: Hibernate Core {5.3.9.Final}
+2020-12-13 21:26:56,127 INFO [main] org.hibernate.cfg.Environment [Environment.java : 213] HHH000206: hibernate.properties not found
+2020-12-13 21:26:56,468 INFO [main] o.h.annotations.common.Version [JavaReflectionManager.java : 49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-13 21:26:56,844 INFO [main] org.hibernate.dialect.Dialect [Dialect.java : 157] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-13 21:26:57,858 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-13 21:26:58,695 INFO [main] org.mongodb.driver.cluster [SLF4JLogger.java : 71] Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-12-13 21:26:58,696 INFO [main] org.mongodb.driver.cluster [SLF4JLogger.java : 71] Adding discovered server 127.0.0.1:27017 to client view of cluster
+2020-12-13 21:26:58,786 INFO [cluster-ClusterId{value='5fd616a23155d9264037aed0', description='null'}-127.0.0.1:27017] org.mongodb.driver.connection [SLF4JLogger.java : 71] Opened connection [connectionId{localValue:1, serverValue:1}] to 127.0.0.1:27017
+2020-12-13 21:26:58,793 INFO [cluster-ClusterId{value='5fd616a23155d9264037aed0', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster [SLF4JLogger.java : 71] Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4509188}
+2020-12-13 21:26:58,795 INFO [cluster-ClusterId{value='5fd616a23155d9264037aed0', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster [SLF4JLogger.java : 71] Discovered cluster type of STANDALONE
+2020-12-13 21:26:59,736 INFO [main] org.mongodb.driver.connection [SLF4JLogger.java : 71] Opened connection [connectionId{localValue:2, serverValue:2}] to 127.0.0.1:27017
+2020-12-13 21:27:03,055 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [JpaBaseConfiguration.java : 237] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-13 21:27:03,403 INFO [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-12-13 21:27:03,434 INFO [main] c.r.c.xxljobtest.config.XxlJobConfig [XxlJobConfig.java : 46] >>>>>>>>>>> xxl-job config init.
+2020-12-13 21:27:04,604 INFO [main] org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java : 1208] Using default implementation for ThreadExecutor
+2020-12-13 21:27:04,624 INFO [main] o.quartz.core.SchedulerSignalerImpl [SchedulerSignalerImpl.java : 61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-13 21:27:04,624 INFO [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 229] Quartz Scheduler v.2.3.1 created.
+2020-12-13 21:27:04,625 INFO [main] org.quartz.simpl.RAMJobStore [RAMJobStore.java : 155] RAMJobStore initialized.
+2020-12-13 21:27:04,626 INFO [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 294] Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-12-13 21:27:04,626 INFO [main] org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java : 1362] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-12-13 21:27:04,626 INFO [main] org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java : 1366] Quartz scheduler version: 2.3.1
+2020-12-13 21:27:04,626 INFO [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 2293] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4bcfa08b
+2020-12-13 21:27:04,656 INFO [main] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskScheduler'
+2020-12-13 21:27:04,720 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:testSpringbootXxl, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@578081e5[class com.riji.controller.xxljobtest.xxljobcontroller.XxlJobDemo#execute]
+2020-12-13 21:27:04,923 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2020-12-13 21:27:05,116 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2020-12-13 21:27:05,323 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2020-12-13 21:27:05,788 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_1
+2020-12-13 21:27:05,789 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_1
+2020-12-13 21:27:05,790 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_1
+2020-12-13 21:27:05,791 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_1
+2020-12-13 21:27:05,792 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_1
+2020-12-13 21:27:05,793 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_1
+2020-12-13 21:27:05,794 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_1
+2020-12-13 21:27:05,796 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_1
+2020-12-13 21:27:05,864 INFO [Thread-41] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 86] >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+2020-12-13 21:27:05,875 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_2
+2020-12-13 21:27:05,877 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_2
+2020-12-13 21:27:05,878 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_2
+2020-12-13 21:27:05,881 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_2
+2020-12-13 21:27:05,883 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_2
+2020-12-13 21:27:05,884 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_2
+2020-12-13 21:27:05,886 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_2
+2020-12-13 21:27:05,887 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_2
+2020-12-13 21:27:05,897 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_3
+2020-12-13 21:27:05,900 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_3
+2020-12-13 21:27:05,902 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_3
+2020-12-13 21:27:05,904 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_3
+2020-12-13 21:27:05,906 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_3
+2020-12-13 21:27:05,907 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_3
+2020-12-13 21:27:05,908 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_3
+2020-12-13 21:27:05,909 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_3
+2020-12-13 21:27:05,911 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_4
+2020-12-13 21:27:05,912 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_4
+2020-12-13 21:27:05,913 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_4
+2020-12-13 21:27:05,913 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_4
+2020-12-13 21:27:05,914 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_4
+2020-12-13 21:27:05,915 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_4
+2020-12-13 21:27:05,915 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_4
+2020-12-13 21:27:05,916 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_4
+2020-12-13 21:27:05,946 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_5
+2020-12-13 21:27:05,947 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_5
+2020-12-13 21:27:05,947 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_5
+2020-12-13 21:27:05,948 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_5
+2020-12-13 21:27:05,949 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_5
+2020-12-13 21:27:05,950 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_5
+2020-12-13 21:27:05,951 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_5
+2020-12-13 21:27:05,953 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_5
+2020-12-13 21:27:05,977 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_6
+2020-12-13 21:27:05,978 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_6
+2020-12-13 21:27:05,978 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_6
+2020-12-13 21:27:05,979 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_6
+2020-12-13 21:27:05,980 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_6
+2020-12-13 21:27:05,981 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_6
+2020-12-13 21:27:05,981 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_6
+2020-12-13 21:27:05,982 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_6
+2020-12-13 21:27:06,008 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_7
+2020-12-13 21:27:06,009 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_7
+2020-12-13 21:27:06,009 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_7
+2020-12-13 21:27:06,010 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_7
+2020-12-13 21:27:06,011 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_7
+2020-12-13 21:27:06,012 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_7
+2020-12-13 21:27:06,013 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_7
+2020-12-13 21:27:06,013 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_7
+2020-12-13 21:27:06,232 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_8
+2020-12-13 21:27:06,234 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_8
+2020-12-13 21:27:06,236 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_8
+2020-12-13 21:27:06,237 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_8
+2020-12-13 21:27:06,238 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_8
+2020-12-13 21:27:06,239 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_8
+2020-12-13 21:27:06,240 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_8
+2020-12-13 21:27:06,241 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_8
+2020-12-13 21:27:06,305 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_9
+2020-12-13 21:27:06,305 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_9
+2020-12-13 21:27:06,306 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_9
+2020-12-13 21:27:06,306 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_9
+2020-12-13 21:27:06,307 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_9
+2020-12-13 21:27:06,308 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_9
+2020-12-13 21:27:06,308 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_9
+2020-12-13 21:27:06,309 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_9
+2020-12-13 21:27:06,322 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_10
+2020-12-13 21:27:06,323 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_10
+2020-12-13 21:27:06,323 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_10
+2020-12-13 21:27:06,324 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_10
+2020-12-13 21:27:06,324 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_10
+2020-12-13 21:27:06,325 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_10
+2020-12-13 21:27:06,325 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_10
+2020-12-13 21:27:06,326 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_10
+2020-12-13 21:27:06,331 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingGET_1
+2020-12-13 21:27:06,332 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingHEAD_1
+2020-12-13 21:27:06,332 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingPOST_1
+2020-12-13 21:27:06,333 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingPUT_1
+2020-12-13 21:27:06,333 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingPATCH_1
+2020-12-13 21:27:06,334 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingDELETE_1
+2020-12-13 21:27:06,334 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingOPTIONS_1
+2020-12-13 21:27:06,335 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingTRACE_1
+2020-12-13 21:27:06,426 INFO [main] o.s.s.quartz.SchedulerFactoryBean [SchedulerFactoryBean.java : 726] Starting Quartz Scheduler now
+2020-12-13 21:27:06,426 INFO [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 547] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-12-13 21:27:06,457 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8081"]
+2020-12-13 21:27:06,510 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8081 (http) with context path ''
+2020-12-13 21:27:06,513 INFO [main] com.riji.FafayaApplication [StartupInfoLogger.java : 59] Started FafayaApplication in 19.479 seconds (JVM running for 22.798)
+2020-12-13 21:27:06,734 INFO [quartzScheduler_Worker-1] io.lettuce.core.EpollProvider [EpollProvider.java : 68] Starting without optional epoll library
+2020-12-13 21:27:06,738 INFO [quartzScheduler_Worker-1] io.lettuce.core.KqueueProvider [KqueueProvider.java : 70] Starting without optional kqueue library
+2020-12-13 21:27:07,861 INFO [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-13 21:27:07,861 INFO [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2020-12-13 21:27:07,874 INFO [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 13 ms
+2020-12-13 21:27:08,054 ERROR [http-nio-8081-exec-3] c.r.c.t.GlobalExceptionHandler [GlobalExceptionHandler.java : 59] ### 请求参数错误: [Field error in object 'createOrderDTO' on field 'amount': rejected value [null]; codes [NotNull.createOrderDTO.amount,NotNull.amount,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrderDTO.amount,amount]; arguments []; default message [amount]]; default message [订单金额不能为空]]
+2020-12-13 21:27:08,108 ERROR [quartzScheduler_Worker-1] org.quartz.core.JobRunShell [JobRunShell.java : 211] Job DEFAULT.LikeTaskQuartz threw an unhandled Exception: 
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1111)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1084)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:866)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:341)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:132)
+	at org.springframework.data.redis.core.RedisTemplate.executeWithStickyConnection(RedisTemplate.java:371)
+	at org.springframework.data.redis.core.DefaultHashOperations.scan(DefaultHashOperations.java:258)
+	at com.riji.dianzan.RedisServiceImpl.getLikedDataFromRedis(RedisServiceImpl.java:67)
+	at com.riji.dianzan.LikedServiceImpl.transLikedFromRedis2DB(LikedServiceImpl.java:55)
+	at com.riji.dianzan.LikedServiceImpl$$FastClassBySpringCGLIB$$f3f6098c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.riji.dianzan.LikedServiceImpl$$EnhancerBySpringCGLIB$$927a4a8d.transLikedFromRedis2DB(<generated>)
+	at com.riji.dianzan.LikeTask.executeInternal(LikeTask.java:32)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:235)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:204)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:113)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:113)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1104)
+	... 21 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 common frames omitted
+2020-12-13 21:27:08,109 ERROR [quartzScheduler_Worker-1] org.quartz.core.ErrorLogger [QuartzScheduler.java : 2407] Job (DEFAULT.LikeTaskQuartz threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1111)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1084)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:866)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:341)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:132)
+	at org.springframework.data.redis.core.RedisTemplate.executeWithStickyConnection(RedisTemplate.java:371)
+	at org.springframework.data.redis.core.DefaultHashOperations.scan(DefaultHashOperations.java:258)
+	at com.riji.dianzan.RedisServiceImpl.getLikedDataFromRedis(RedisServiceImpl.java:67)
+	at com.riji.dianzan.LikedServiceImpl.transLikedFromRedis2DB(LikedServiceImpl.java:55)
+	at com.riji.dianzan.LikedServiceImpl$$FastClassBySpringCGLIB$$f3f6098c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.riji.dianzan.LikedServiceImpl$$EnhancerBySpringCGLIB$$927a4a8d.transLikedFromRedis2DB(<generated>)
+	at com.riji.dianzan.LikeTask.executeInternal(LikeTask.java:32)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:235)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:204)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:113)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:113)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1104)
+	... 21 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 common frames omitted
+2020-12-13 21:27:16,194 INFO [Thread-47] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 585] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-12-13 21:27:16,195 INFO [Thread-47] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskScheduler'
+2020-12-13 21:27:16,196 INFO [Thread-47] o.s.s.quartz.SchedulerFactoryBean [SchedulerFactoryBean.java : 844] Shutting down Quartz Scheduler
+2020-12-13 21:27:16,196 INFO [Thread-47] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 666] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-12-13 21:27:16,197 INFO [Thread-47] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 585] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-12-13 21:27:16,198 INFO [Thread-47] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 740] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-12-13 21:27:16,199 INFO [Thread-41] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 96] >>>>>>>>>>> xxl-job remoting server stop.
+2020-12-13 21:27:16,904 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 87] >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://192.168.159.1:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2020-12-13 21:27:16,905 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 105] >>>>>>>>>>> xxl-job, executor registry thread destory.
+2020-12-13 21:27:16,905 INFO [Thread-47] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 125] >>>>>>>>>>> xxl-job remoting server destroy success.
+2020-12-13 21:27:16,906 INFO [xxl-job, executor JobLogFileCleanThread] c.x.j.c.thread.JobLogFileCleanThread [JobLogFileCleanThread.java : 99] >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destory.
+2020-12-13 21:27:16,907 INFO [xxl-job, executor TriggerCallbackThread] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 97] >>>>>>>>>>> xxl-job, executor callback thread destory.
+2020-12-13 21:27:16,908 INFO [Thread-40] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 127] >>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2020-12-13 21:28:07,044 INFO [main] com.riji.FafayaApplication [StartupInfoLogger.java : 50] Starting FafayaApplication on SKY-20190605UKD with PID 3732 (G:\biji\target\classes started by Administrator in G:\biji)
+2020-12-13 21:28:07,050 INFO [main] com.riji.FafayaApplication [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2020-12-13 21:28:09,011 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-13 21:28:09,012 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-13 21:28:09,083 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java : 363] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.riji.article.dao.CommentRepository.
+2020-12-13 21:28:09,147 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 124ms. Found 2 repository interfaces.
+2020-12-13 21:28:09,176 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-13 21:28:09,176 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-13 21:28:09,189 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java : 363] Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.riji.dianzan.UserInfoRepository.
+2020-12-13 21:28:09,191 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java : 363] Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.riji.dianzan.UserLikeRepository.
+2020-12-13 21:28:09,199 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 22ms. Found 1 repository interfaces.
+2020-12-13 21:28:09,211 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-13 21:28:09,212 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-13 21:28:09,236 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java : 363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.riji.article.dao.CommentRepository.
+2020-12-13 21:28:09,236 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java : 363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.riji.dianzan.UserInfoRepository.
+2020-12-13 21:28:09,237 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java : 363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.riji.dianzan.UserLikeRepository.
+2020-12-13 21:28:09,238 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2020-12-13 21:28:09,842 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6b4ed345] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-13 21:28:10,679 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8081 (http)
+2020-12-13 21:28:10,700 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8081"]
+2020-12-13 21:28:10,715 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2020-12-13 21:28:10,715 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-12-13 21:28:10,723 INFO [main] o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-12-13 21:28:10,723 INFO [main] o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-13 21:28:10,723 INFO [main] o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-13 21:28:10,727 INFO [main] o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-12-13 21:28:10,869 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2020-12-13 21:28:10,870 INFO [main] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 3348 ms
+2020-12-13 21:28:11,185 INFO [main] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2020-12-13 21:28:11,377 INFO [main] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2020-12-13 21:28:11,450 INFO [main] o.h.jpa.internal.util.LogHelper [LogHelper.java : 31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-13 21:28:11,561 INFO [main] org.hibernate.Version [Version.java : 46] HHH000412: Hibernate Core {5.3.9.Final}
+2020-12-13 21:28:11,564 INFO [main] org.hibernate.cfg.Environment [Environment.java : 213] HHH000206: hibernate.properties not found
+2020-12-13 21:28:11,772 INFO [main] o.h.annotations.common.Version [JavaReflectionManager.java : 49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-13 21:28:12,011 INFO [main] org.hibernate.dialect.Dialect [Dialect.java : 157] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-13 21:28:12,904 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-13 21:28:13,601 INFO [main] org.mongodb.driver.cluster [SLF4JLogger.java : 71] Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-12-13 21:28:13,601 INFO [main] org.mongodb.driver.cluster [SLF4JLogger.java : 71] Adding discovered server 127.0.0.1:27017 to client view of cluster
+2020-12-13 21:28:13,982 INFO [cluster-ClusterId{value='5fd616ed3155d90e94f955a8', description='null'}-127.0.0.1:27017] org.mongodb.driver.connection [SLF4JLogger.java : 71] Opened connection [connectionId{localValue:1, serverValue:3}] to 127.0.0.1:27017
+2020-12-13 21:28:13,990 INFO [cluster-ClusterId{value='5fd616ed3155d90e94f955a8', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster [SLF4JLogger.java : 71] Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4927433}
+2020-12-13 21:28:13,992 INFO [cluster-ClusterId{value='5fd616ed3155d90e94f955a8', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster [SLF4JLogger.java : 71] Discovered cluster type of STANDALONE
+2020-12-13 21:28:14,363 INFO [main] org.mongodb.driver.connection [SLF4JLogger.java : 71] Opened connection [connectionId{localValue:2, serverValue:4}] to 127.0.0.1:27017
+2020-12-13 21:28:16,117 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [JpaBaseConfiguration.java : 237] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-13 21:28:16,362 INFO [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-12-13 21:28:16,391 INFO [main] c.r.c.xxljobtest.config.XxlJobConfig [XxlJobConfig.java : 46] >>>>>>>>>>> xxl-job config init.
+2020-12-13 21:28:17,266 INFO [main] org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java : 1208] Using default implementation for ThreadExecutor
+2020-12-13 21:28:17,279 INFO [main] o.quartz.core.SchedulerSignalerImpl [SchedulerSignalerImpl.java : 61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-13 21:28:17,279 INFO [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 229] Quartz Scheduler v.2.3.1 created.
+2020-12-13 21:28:17,280 INFO [main] org.quartz.simpl.RAMJobStore [RAMJobStore.java : 155] RAMJobStore initialized.
+2020-12-13 21:28:17,281 INFO [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 294] Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-12-13 21:28:17,282 INFO [main] org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java : 1362] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-12-13 21:28:17,282 INFO [main] org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java : 1366] Quartz scheduler version: 2.3.1
+2020-12-13 21:28:17,282 INFO [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 2293] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5baabba
+2020-12-13 21:28:17,313 INFO [main] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskScheduler'
+2020-12-13 21:28:17,376 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:testSpringbootXxl, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@2aef651[class com.riji.controller.xxljobtest.xxljobcontroller.XxlJobDemo#execute]
+2020-12-13 21:28:17,487 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2020-12-13 21:28:17,520 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2020-12-13 21:28:17,584 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2020-12-13 21:28:17,813 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_1
+2020-12-13 21:28:17,815 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_1
+2020-12-13 21:28:17,816 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_1
+2020-12-13 21:28:17,818 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_1
+2020-12-13 21:28:17,819 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_1
+2020-12-13 21:28:17,821 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_1
+2020-12-13 21:28:17,822 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_1
+2020-12-13 21:28:17,823 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_1
+2020-12-13 21:28:17,851 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_2
+2020-12-13 21:28:17,854 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_2
+2020-12-13 21:28:17,857 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_2
+2020-12-13 21:28:17,860 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_2
+2020-12-13 21:28:17,862 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_2
+2020-12-13 21:28:17,865 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_2
+2020-12-13 21:28:17,867 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_2
+2020-12-13 21:28:17,868 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_2
+2020-12-13 21:28:17,875 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_3
+2020-12-13 21:28:17,877 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_3
+2020-12-13 21:28:17,880 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_3
+2020-12-13 21:28:17,882 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_3
+2020-12-13 21:28:17,884 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_3
+2020-12-13 21:28:17,886 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_3
+2020-12-13 21:28:17,887 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_3
+2020-12-13 21:28:17,889 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_3
+2020-12-13 21:28:17,890 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_4
+2020-12-13 21:28:17,891 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_4
+2020-12-13 21:28:17,893 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_4
+2020-12-13 21:28:17,894 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_4
+2020-12-13 21:28:17,895 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_4
+2020-12-13 21:28:17,896 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_4
+2020-12-13 21:28:17,897 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_4
+2020-12-13 21:28:17,898 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_4
+2020-12-13 21:28:17,920 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_5
+2020-12-13 21:28:17,922 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_5
+2020-12-13 21:28:17,925 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_5
+2020-12-13 21:28:17,927 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_5
+2020-12-13 21:28:17,929 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_5
+2020-12-13 21:28:17,931 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_5
+2020-12-13 21:28:17,932 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_5
+2020-12-13 21:28:17,933 INFO [Thread-27] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 86] >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+2020-12-13 21:28:17,934 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_5
+2020-12-13 21:28:17,974 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_6
+2020-12-13 21:28:17,974 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_6
+2020-12-13 21:28:17,975 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_6
+2020-12-13 21:28:17,976 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_6
+2020-12-13 21:28:17,977 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_6
+2020-12-13 21:28:17,978 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_6
+2020-12-13 21:28:17,979 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_6
+2020-12-13 21:28:17,979 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_6
+2020-12-13 21:28:18,006 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_7
+2020-12-13 21:28:18,007 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_7
+2020-12-13 21:28:18,008 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_7
+2020-12-13 21:28:18,008 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_7
+2020-12-13 21:28:18,009 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_7
+2020-12-13 21:28:18,010 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_7
+2020-12-13 21:28:18,011 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_7
+2020-12-13 21:28:18,011 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_7
+2020-12-13 21:28:18,111 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_8
+2020-12-13 21:28:18,112 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_8
+2020-12-13 21:28:18,113 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_8
+2020-12-13 21:28:18,114 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_8
+2020-12-13 21:28:18,114 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_8
+2020-12-13 21:28:18,115 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_8
+2020-12-13 21:28:18,115 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_8
+2020-12-13 21:28:18,116 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_8
+2020-12-13 21:28:18,168 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_9
+2020-12-13 21:28:18,168 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_9
+2020-12-13 21:28:18,169 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_9
+2020-12-13 21:28:18,170 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_9
+2020-12-13 21:28:18,171 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_9
+2020-12-13 21:28:18,172 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_9
+2020-12-13 21:28:18,173 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_9
+2020-12-13 21:28:18,173 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_9
+2020-12-13 21:28:18,184 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingGET_10
+2020-12-13 21:28:18,185 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingHEAD_10
+2020-12-13 21:28:18,186 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPOST_10
+2020-12-13 21:28:18,186 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPUT_10
+2020-12-13 21:28:18,187 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingPATCH_10
+2020-12-13 21:28:18,187 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingDELETE_10
+2020-12-13 21:28:18,187 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingOPTIONS_10
+2020-12-13 21:28:18,188 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: showUsingTRACE_10
+2020-12-13 21:28:18,193 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingGET_1
+2020-12-13 21:28:18,193 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingHEAD_1
+2020-12-13 21:28:18,194 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingPOST_1
+2020-12-13 21:28:18,194 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingPUT_1
+2020-12-13 21:28:18,195 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingPATCH_1
+2020-12-13 21:28:18,195 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingDELETE_1
+2020-12-13 21:28:18,196 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingOPTIONS_1
+2020-12-13 21:28:18,196 INFO [main] s.d.s.w.r.o.CachingOperationNameGenerator [CachingOperationNameGenerator.java : 40] Generating unique operation named: show1UsingTRACE_1
+2020-12-13 21:28:18,239 INFO [main] o.s.s.quartz.SchedulerFactoryBean [SchedulerFactoryBean.java : 726] Starting Quartz Scheduler now
+2020-12-13 21:28:18,239 INFO [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 547] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-12-13 21:28:18,258 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8081"]
+2020-12-13 21:28:18,290 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8081 (http) with context path ''
+2020-12-13 21:28:18,294 INFO [main] com.riji.FafayaApplication [StartupInfoLogger.java : 59] Started FafayaApplication in 12.029 seconds (JVM running for 13.73)
+2020-12-13 21:28:18,409 INFO [quartzScheduler_Worker-1] io.lettuce.core.EpollProvider [EpollProvider.java : 68] Starting without optional epoll library
+2020-12-13 21:28:18,456 INFO [quartzScheduler_Worker-1] io.lettuce.core.KqueueProvider [KqueueProvider.java : 70] Starting without optional kqueue library
+2020-12-13 21:28:18,782 INFO [quartzScheduler_Worker-1] o.h.h.i.QueryTranslatorFactoryInitiator [QueryTranslatorFactoryInitiator.java : 47] HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 21:30:03,927 INFO [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-13 21:30:03,928 INFO [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2020-12-13 21:30:03,944 INFO [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 16 ms
+2020-12-13 21:30:30,110 ERROR [http-nio-8081-exec-2] c.r.c.t.GlobalExceptionHandler [GlobalExceptionHandler.java : 59] ### 请求参数错误: [Field error in object 'createOrderDTO' on field 'amount': rejected value [null]; codes [NotNull.createOrderDTO.amount,NotNull.amount,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrderDTO.amount,amount]; arguments []; default message [amount]]; default message [订单金额不能为空]]
+2020-12-13 21:31:08,460 ERROR [http-nio-8081-exec-3] c.r.c.t.GlobalExceptionHandler [GlobalExceptionHandler.java : 59] ### 请求参数错误: [Field error in object 'createOrderDTO' on field 'amount': rejected value [null]; codes [NotNull.createOrderDTO.amount,NotNull.amount,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrderDTO.amount,amount]; arguments []; default message [amount]]; default message [订单金额不能为空]]
+2020-12-13 21:31:41,171 INFO [Thread-32] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 585] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-12-13 21:31:41,172 INFO [Thread-32] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskScheduler'
+2020-12-13 21:31:41,173 INFO [Thread-32] o.s.s.quartz.SchedulerFactoryBean [SchedulerFactoryBean.java : 844] Shutting down Quartz Scheduler
+2020-12-13 21:31:41,173 INFO [Thread-32] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 666] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-12-13 21:31:41,173 INFO [Thread-32] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 585] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-12-13 21:31:41,174 INFO [Thread-32] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 740] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-12-13 21:31:41,175 INFO [Thread-27] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 96] >>>>>>>>>>> xxl-job remoting server stop.
+2020-12-13 21:31:41,918 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 87] >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://192.168.159.1:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2020-12-13 21:31:41,918 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 105] >>>>>>>>>>> xxl-job, executor registry thread destory.
+2020-12-13 21:31:41,918 INFO [Thread-32] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 125] >>>>>>>>>>> xxl-job remoting server destroy success.
+2020-12-13 21:31:41,919 INFO [xxl-job, executor JobLogFileCleanThread] c.x.j.c.thread.JobLogFileCleanThread [JobLogFileCleanThread.java : 99] >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destory.
+2020-12-13 21:31:41,919 INFO [xxl-job, executor TriggerCallbackThread] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 97] >>>>>>>>>>> xxl-job, executor callback thread destory.
+2020-12-13 21:31:41,921 INFO [Thread-26] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 127] >>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2020-12-13 21:31:43,058 INFO [Thread-32] org.mongodb.driver.connection [SLF4JLogger.java : 71] Closed connection [connectionId{localValue:2, serverValue:4}] to 127.0.0.1:27017 because the pool has been closed.
+2020-12-13 21:31:43,067 INFO [Thread-32] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 597] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-13 21:31:43,074 INFO [Thread-32] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariPool-1 - Shutdown initiated...
+2020-12-13 21:31:43,100 INFO [Thread-32] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariPool-1 - Shutdown completed.
