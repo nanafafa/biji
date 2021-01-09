@@ -28,7 +28,7 @@ public class TokenServiceImpl implements TokenService {
         Response response=new Response(0,token.toString(),null);
         return response;
     }
-
+    @ApiIdempotent
     @Override
     public Response checkToken(HttpServletRequest request) {
         //从请求头中获取token

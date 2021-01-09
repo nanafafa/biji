@@ -18,12 +18,13 @@ public class TokenController {
 
     @Autowired
     private TokenService tokenService;
-    @GetMapping
+    @GetMapping("/createToken")
     public Response token(){
+
         return tokenService.createToken();
     }
 
-    @PostMapping("checktoken")
+    @GetMapping("/checktoken")
     public Response checktoken(HttpServletRequest request){
         return tokenService.checkToken(request);
     }
