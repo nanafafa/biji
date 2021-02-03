@@ -17,10 +17,14 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.core.DefaultParameterNameDiscoverer;
+import org.springframework.core.ParameterNameDiscoverer;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 切面类
@@ -52,6 +56,15 @@ public class MyLogAdvice {
         }
         //操作的参数
         Object[] args = joinPoint.getArgs();
+        ParameterNameDiscoverer pnd  = new DefaultParameterNameDiscoverer();
+        MethodSignature signature =(MethodSignature)joinPoint.getSignature();
+        Method method1 = signature.getMethod();
+        String[] parameterNames = pnd.getParameterNames(method1);
+        Map<String, Object> paramMap = new HashMap<>();
+        for (int i = 0; i < parameterNames.length; i++) {
+            paramMap.put(parameterNames[i], args[i]);
+        }
+
         String toJSONString = JSON.toJSONString(args);
         //还可以拿到类名加上方法名
         //String methodName = joinPoint.getTarget().getClass().getName() + "." + method.getName();
