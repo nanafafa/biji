@@ -51,7 +51,7 @@ public class FafayaApplicationTests {
     @Test
     public void testCreateIndex() throws IOException {
         //1.创建索引请求
-        CreateIndexRequest request = new CreateIndexRequest("kuang_index");
+        CreateIndexRequest request = new CreateIndexRequest("jd_goods");
         //2.客户端执行请求
         CreateIndexResponse createIndexResponse = restHighLevelClient.indices().create(request, RequestOptions.DEFAULT);
         System.out.println(createIndexResponse);
