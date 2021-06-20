@@ -24,8 +24,8 @@ public class UserController {
     private UserService userService;
 
     @CrossOrigin(origins = "*", maxAge = 3600)
-    @RequestMapping(value="/login",method =POST)
-    public Map<String,Object> login(@RequestBody UserData userData){
+    @RequestMapping(value="/login",method =GET)
+    public Map<String,Object> login(/*@RequestBody*/ UserData userData){
         Map<String, Object> map = new HashMap<>();
         String userMail = userData.getUserMail();
         String userPassword = userData.getUserPassword();

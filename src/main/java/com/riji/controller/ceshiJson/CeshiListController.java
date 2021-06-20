@@ -1,7 +1,11 @@
 package com.riji.controller.ceshiJson;
 
+
+
+import com.nucarf.starter.DeleteFlagSeervicce;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -12,7 +16,13 @@ import java.util.Map;
  */
 @RestController
 public class CeshiListController {
+     @Resource
+    private DeleteFlagSeervicce deleteFlagSeervicce;
+     @GetMapping("/say")
+     public String sayWhat(){
 
+         return deleteFlagSeervicce.getDeleteFlag();
+     }
     @RequestMapping("/getList")
     public List<String> getAll(){
         ArrayList<String> list = new ArrayList<>();

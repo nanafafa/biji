@@ -1,5 +1,6 @@
 package com.riji;
 
+import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
 import org.mybatis.spring.annotation.MapperScan;
 import org.redisson.Redisson;
 import org.redisson.config.Config;
@@ -26,6 +27,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 //配置mapper层的扫描
 @MapperScan(basePackages={"com.riji.dao"})
 @EnableCaching
+@NacosPropertySource(dataId = "nacos_test1.yaml",autoRefreshed = true)
 public class FafayaApplication {
 
     public static void main(String[] args) {

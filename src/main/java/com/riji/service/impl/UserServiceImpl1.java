@@ -18,7 +18,7 @@ public class UserServiceImpl1 implements UserService {
 
     @Override
     public User login(String userMail, String userPassword) {
-        User user = userMapper.login(userMail, MD5Util.encode(userPassword));
+        User user = userMapper.login(userMail, userPassword/*MD5Util.encode(userPassword)*/);
         return user;
     }
 

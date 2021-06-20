@@ -1,7 +1,9 @@
 package com.riji.controller;
 
+import com.alibaba.nacos.api.config.annotation.NacosValue;
 import com.riji.pojo.CeshiUser;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,6 +11,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class CeshiDemo {
     @Value("${openApi.param.name:222}")
     private String name;
+
+
+    @NacosValue(value = "${approval.app.appId:1762222222}",autoRefreshed = true)
+    private String appId;
+    @GetMapping("test1")
+    public String test1(){
+        return appId;
+    }
+
 
     @RequestMapping("/aaa")
     public CeshiUser show(CeshiUser ceshiUser){
