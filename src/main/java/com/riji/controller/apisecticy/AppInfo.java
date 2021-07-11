@@ -1,0 +1,15 @@
+package com.riji.controller.apisecticy;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class AppInfo {
+    /** App id */
+    private String appId;
+    /** API 秘钥 */
+    private String key;
+}
