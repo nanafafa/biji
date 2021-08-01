@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 @RestController
 @RequestMapping("/api/token")
-public class TokenController {
+public class ApiTokenController {
 
     @Autowired
     private RedisTemplate redisTemplate;
